@@ -1,0 +1,42 @@
+{"intents": [
+    {"tag": "greetings", 
+     "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how is it going?"], 
+     "responses": ["Hello!", "Hey!", "What can I do fo you?"
+    ]}, 
+    {"tag": "goodbye", 
+     "patterns": ["bye", "goodbye", "I am leaving", "have a good day"], 
+     "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"
+    ]}, 
+    {"tag": "age", 
+     "patterns": ["how old are you?", "when were you created?", "when was you born?"], 
+     "responses": ["I am a virtual assistant and do not have an age", "I was created in 2023", "I am a computer program"
+    ]}, 
+    {"tag": "name", 
+     "patterns": ["what is your name?", "what should I call you?", "whats your name?"], 
+     "responses": ["You can call me ChatBot", "I am ChatBot", "I am ChatBot, nice to meet you"
+    ]}, 
+    {"tag": "help", 
+     "patterns": ["could you help me?", "I need assistance", "can you help me?"], 
+     "responses": ["Of course, what do you need help with?", "Sure, what do you need help with?"
+    ]}, 
+    {"tag": "joke", 
+     "patterns": ["tell me a joke", "crack a funny joke", "make me laugh"], 
+     "responses": ["Why did the tomato turn red? Because it saw the salad dressing!", "What do you call a fake noodle? An Impasta!", "Why was the math book sad? Because it had too many problems"
+    ]},
+    {"tag": "weather", 
+     "patterns": ["what is the weather like?", "how is the weather today?", "what is the temperature?"], 
+     "responses": ["I'm sorry, I don't have access to weather information", "The weather is beautiful today!", "I'm not sure, but it's probably sunny"
+     ]},
+     {"tag": "time", 
+     "patterns": ["what time is it?", "what is the current time?", "can you tell me the time?"], 
+     "responses": ["I'm sorry, I don't have access to real-time information", "The current time is 12:00 PM", "I'm not sure, but it's probably noon"
+     ]},
+     {"tag": "date", 
+     "patterns": ["what is the date?", "what is today's date?", "can you tell me the date?"], 
+     "responses": ["I'm sorry, I don't have access to real-time information", "Today's date is February 14, 2023", "I'm not sure, but it's probably February 14, 2023"
+     ]},
+     {"tag": "thank you", 
+     "patterns": ["thank you", "thanks", "thank you very much"], 
+     "responses": ["You're welcome!", "No problem!", "My pleasure!"
+     ]}
+]}
